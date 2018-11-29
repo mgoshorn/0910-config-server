@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: hibernate_role
+    password: top-secret
+    url: jdbc:postgresql://localhost:5432/${app.db}
+  jpa:
+    hibernate:
+      ddl-auto: update

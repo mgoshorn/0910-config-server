@@ -1,0 +1,10 @@
+server:
+  port: 8761
+  
+#  By default Eureka itself will try to register with Eureka
+# This will cause constant errors because there is no other Eureka
+# instance to register with, so we disable that functionality.
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

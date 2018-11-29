@@ -1,0 +1,5 @@
+app:
+  db: books
+  
+server:
+  port: 4000
